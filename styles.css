@@ -24,15 +24,17 @@
 }
 
 .body {
+    /* Body */
     background-color: antiquewhite;
     font-family: Arial;
 }
 
-.heading {
+.h1 {
+    /* Heading */
     padding-top:1.5em;
 }
 
-.mainContent {
+.content {
     /* Background */
     margin: auto;
     height: 100vh;
