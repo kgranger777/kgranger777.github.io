@@ -1,29 +1,51 @@
 .button {
-    background-color:antiquewhite;
-    border-style:outset;
-    border-color:antiquewhite;
-    font-size:80%;
-    font-family:Arial;
-    color:#008080;
-    transition-duration: 100ms;
-    padding: 0.5% 1%;
-}
-.button:hover {
-    background-color:#008080;
-    color: antiquewhite;
-    border-style:inset;
+    /* Background */
+    background-color: antiquewhite;
 
-}
-.mainDiv {
-    margin:auto;
-    height:100vh;
-    width:95%;
-    background-color:#008080;
-    border-style:outset;
-    border-color:antiquewhite;
-    border-width:thick;
+    /* Border */
+    border-color: antiquewhite;
+    border-style: outset;
+
+    /* Text */
+    color: #008080;
+    font-size: 80%;
     font-family: Arial;
-    font-size:200%;
-    text-align:center;
-    color:antiquewhite;
+
+    /* Other */
+    padding: 0.5% 1%;
+    transition-duration: 100ms;
+}
+
+.button:hover {
+    /* Button Hover Action */
+    background-color: #008080;
+    color: antiquewhite;
+    border-style: inset;
+}
+
+.body {
+    background-color: antiquewhite;
+    font-family: Arial;
+}
+
+.heading {
+    padding-top:1.5em;
+}
+
+.mainContent {
+    /* Background */
+    margin: auto;
+    height: 100vh;
+    width: 95%;
+    background-color: #008080;
+
+    /* Border */
+    border-style: outset;
+    border-color: antiquewhite;
+    border-width: thick;
+
+    /* Text */
+    color: antiquewhite;
+    font-size: 200%;
+    text-align: center;
 }

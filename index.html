@@ -3,22 +3,15 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-    <body style="background-color:antiquewhite;">
-        <div class="mainDiv">
-            <h1 style="padding-top:2em">Welcome!</h1>
-            <p>This is the landing page for this site.</p>
-            <button class="button"; onclick="buttonPressed()">Cool!</button>
-            <p id="pressButtonAction"; style="display:none">You pressed the button! Good for you!</p>
-        </div>
-    </body>
-<script>
-    function buttonPressed() {
-        var x = document.getElementById("pressButtonAction");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-</script>
+<body class="body">
+<div class="mainContent">
+    <h1 class="heading">Welcome!</h1>
+    <p>This is the landing page for this site.</p>
+    <button class="button" ; onclick="buttonPressed()">Cool!</button>
+    <p id="pressButtonAction" ; style="display:none">
+        You pressed the button! Good for you!
+    </p>
+</div>
+</body>
+<script src="button.js"></script>
 </html>
