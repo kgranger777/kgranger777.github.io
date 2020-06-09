@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .button {
+        background-color:antiquewhite;
+        border-style:outset;
+        border-color:antiquewhite;
+        font-size:80%;
+        font-family:Arial;
+        color:#008080;
+        transition-duration: 100ms;
+        padding: 0.5% 1%;
+    }
+    .button:hover {
+        background-color:#008080;
+        color: antiquewhite;
+        border-style:inset;
+
+    }
+    .mainDiv {
+        margin:auto;
+        height:100vh;
+        width:95%;
+        background-color:#008080;
+        border-style:outset;
+        border-color:antiquewhite;
+        border-width:thick;
+        font-family: Arial;
+        font-size:200%;
+        text-align:center;
+        color:antiquewhite;
+    }
+</style>
+
+    <body style="background-color:antiquewhite;">
+        <div class="mainDiv">
+            <h1 style="padding-top:2em">Hello World!</h1>
+            <p>I'm hosting this on GitHub Pages.</p>
+            <button class="button"; onclick="buttonPressed()">Cool!</button>
+            <p id="functionReturn"></p>
+        </div>
+    </body>
+<script>
+    function buttonPressed() {
+        document.getElementById("functionReturn").innerHTML = "You pressed the button! Good for you!";
+    }
+</script>
+</html>
