@@ -37,12 +37,17 @@
             <h1 style="padding-top:2em">Hello World!</h1>
             <p>I'm hosting this on GitHub Pages.</p>
             <button class="button"; onclick="buttonPressed()">Cool!</button>
-            <p id="functionReturn"></p>
+            <p id="pressButtonAction"; style="display:none">You pressed the button! Good for you!</p>
         </div>
     </body>
 <script>
     function buttonPressed() {
-        document.getElementById("functionReturn").innerHTML = "You pressed the button! Good for you!";
+        var x = document.getElementById("pressButtonAction");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
     }
 </script>
 </html>
