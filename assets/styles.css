@@ -37,8 +37,8 @@
 }
 
 .p {
-    padding-top:.5em;
-    padding-bottom: .5em;
+    padding-top:1em;
+    padding-bottom: 1em;
     width: 50%;
     margin: auto;
 }
