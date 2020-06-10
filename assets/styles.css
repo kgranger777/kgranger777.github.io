@@ -32,6 +32,13 @@
 .h1 {
     /* Heading */
     padding-top:1.5em;
+    width: 50%;
+    margin: auto;
+}
+
+.p {
+    width: 50%;
+    margin: auto;
 }
 
 .content {
