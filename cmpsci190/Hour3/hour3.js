@@ -13,3 +13,5 @@ function convert(input) {
     // returns input converted to Fahrenheit using the formula
     return (input * (9 / 5)) + 32;
 }
+
+//<button class="button" onclick="sendOutput()">Convert</button>
