@@ -29,14 +29,14 @@
     font-family: Arial;
 }
 
-.h1 {
+.centeredHeading {
     /* Heading */
     padding-top:1.5em;
     width: 50%;
     margin: auto;
 }
 
-.p {
+.centeredParagraph {
     padding-top:1em;
     padding-bottom: 1em;
     width: 50%;
