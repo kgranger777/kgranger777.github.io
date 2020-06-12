@@ -14,4 +14,3 @@ function convert(input) {
     return (input * (9 / 5)) + 32;
 }
 
-//<button class="button" onclick="sendOutput()">Convert</button>
