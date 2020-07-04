@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../assets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Hour 18 Page 2!</title>
+</head>
+<body class="body">
+<div class="content" style="height: 96.5vh">
+    <h1 class="centeredHeading">Hour 18 Page 2!</h1>
+    <p class="centeredParagraph">
+        <a href="index.html" style="color:antiquewhite">Page 1 Again</a>
+    </p>
+    <button onclick="deleteCookie('myCookieData');outputCookie();" class="button">Delete your cookie</button>
+    <p id="outputField" class="centeredParagraph"></p>
+</div>
+<script>
+    $(function () {
+        outputCookie();
+    })
+    function outputCookie() {
+        $("#outputField").text("You entered: " + getCookie("myCookieData"));
+    }
+</script>
+<script src="hour18.js"></script>
+</body>
+</html>
