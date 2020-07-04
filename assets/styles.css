@@ -46,7 +46,7 @@
 .content {
     /* Background */
     margin: auto;
-    height: 100vh;
+    height: auto;
     width: 95%;
     background-color: #008080;
 
