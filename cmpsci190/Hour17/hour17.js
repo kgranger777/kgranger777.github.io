@@ -7,7 +7,7 @@ $("button").click(function () {
     console.log($('form1').serialize())
     if (checkFields()) {
         $.post(
-            'hour17.php', $("#form1").serialize(),
+            'https://wessel.xyz/projects/hour17/hour17.php', $("#form1").serialize(),
             function (data) {
                 $("#outputField").html(data);
             });
