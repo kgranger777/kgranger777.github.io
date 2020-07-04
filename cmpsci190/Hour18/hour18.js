@@ -9,18 +9,14 @@ function createCookie(name, value, days, path, domain, secure) {
         var expires = " ";
     }
     cookieString = name + "=" + escape(value);
-    if(expires){
+    if(expires)
         cookieString += "; expires=" + expires;
-    }
-    if(path){
+    if(path)
         cookieString += "; path=" + escape(path);
-    }
-    if(domain){
+    if(domain)
         cookieString += "; domain=" + escape(domain);
-    }
-    if(secure){
+    if(secure)
         cookieString += "; secure"
-    }
 
     document.cookie = cookieString
 }
