@@ -18,8 +18,13 @@
     $(function () {
         outputCookie();
     })
+
     function outputCookie() {
-        $("#outputField").text("You entered: " + getCookie("myCookieData"));
+        if (getCookie("myCookieData") == null) {
+            $("#outputField").text("The cookie is empty!");
+        } else {
+            $("#outputField").text("You entered: " + getCookie("myCookieData"));
+        }
     }
 </script>
 <script src="hour18.js"></script>
