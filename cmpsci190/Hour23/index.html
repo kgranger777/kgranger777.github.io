@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hour 23</title>
+    <script>
+        let banners = ["banner1.jpg", "banner2.jpg",
+            "banner3.jpg"];
+        let counter = 0;
+        function run() {
+            setInterval(cycle, 2000);
+        }
+        function cycle() {
+            counter = Math.floor(Math.random() * 3);
+            document.getElementById("banner").src =
+                banners[counter];
+        }
+    </script>
+</head>
+<body onload = "run();">
+<img id="banner" alt="banner" src="banner1.jpg"
+     style="position: fixed; top: 50%; left: 50%; margin-top: -50px; margin-left: -200px;"/>
+</body>
+</html>
