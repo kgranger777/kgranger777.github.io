@@ -1,8 +1,8 @@
 function buttonPressed() {
-    var x = document.getElementById("pressButtonAction");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+    let x = document.getElementById("pressButtonAction");
+    if (x.style.opacity === "0") {
+        x.style.opacity = "1";
     } else {
-        x.style.display = "none";
+        x.style.opacity = "0";
     }
 }
